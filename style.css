@@ -9,7 +9,7 @@ body {
 .aside-section {
     display: inline-flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     width: auto;
 }
 
@@ -31,7 +31,7 @@ p {
 --------------------*/
 
 .banner {
-    width: 85%;
+    width: 80%;
     height: auto;
     margin: 60px auto;
     background-color: black;
@@ -81,18 +81,19 @@ h1 {
     padding: 0 10px;
     background-color: black;
     border-radius: 10px;
+    padding-right: 5px;
 }
 
 .aside-link {
     display: block;
     height: auto;
-    width: ;
-    margin: 20px auto;
+    margin: 20px;
     text-decoration: none;
     color: black;
     background-color: white;
     border-radius: 6px;
-    padding: 10px 16px;
+    padding: 10px 20px;
+    text-align: center;
 }
 
 .aside-blogs {
@@ -113,14 +114,15 @@ h1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
+    margin-left: 30px;
 }
 
 .blogs {
     height: auto;
-    width: 90%;
+    width: 95%;
     border-radius: 4px;
     margin: 10px 0;
-    box-shadow: 5px 10px 8px #888888;
+    box-shadow: 5px 5px 5px #888888;
 }
 
 .blog img {
