@@ -6,6 +6,13 @@ body {
     margin: 0;
 }
 
+.aside-section {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: auto;
+}
+
 .link {
     text-decoration: none;
     color: white;
@@ -24,7 +31,7 @@ p {
 --------------------*/
 
 .banner {
-    width: 80%;
+    width: 85%;
     height: auto;
     margin: 60px auto;
     background-color: black;
@@ -48,7 +55,77 @@ p {
 
 
 
+/*---------------------
+    Aside Section
+---------------------*/
+.aside-title {
+    width: 80%;
+    margin: 10px auto;
+}
 
+h1 {
+    margin: auto;
+}
+
+.sticky {
+    position: sticky;
+    top: 0px;
+    left: auto;
+    overflow: hidden;
+}
+
+
+.aside-element {
+    width: 100%;
+    height: auto;
+    padding: 0 10px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.aside-link {
+    display: block;
+    height: auto;
+    width: ;
+    margin: 20px auto;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 6px;
+    padding: 10px 16px;
+}
+
+.aside-blogs {
+    background-color: red;
+    color: white;
+}
+
+.transfer {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 2px 6px;
+}
+
+.blogs-article {
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.blogs {
+    height: auto;
+    width: 90%;
+    border-radius: 4px;
+    margin: 10px 0;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.blog img {
+    width: 100%;
+}
 
 
 /*-----------------------------------------------
@@ -59,7 +136,7 @@ p {
 /*-------------------------- For Mobile------------------------ */
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 688px) {
 
     /* -----Top-Banner----- */
 
@@ -90,7 +167,7 @@ p {
 
 
 /*---------------------- For Tablet-------------------- */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 689px) and (max-width: 992px) {
     .banner {
         margin: 30px auto;
         width: 90%;
