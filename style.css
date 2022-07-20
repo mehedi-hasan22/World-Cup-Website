@@ -1,0 +1,97 @@
+/*-------------------
+    common styles
+---------------------*/
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    border-radius: 6px;
+    padding: 10px 16px;
+}
+
+p {
+    margin-bottom: 3em;
+}
+
+
+/*------------------
+    top banner
+--------------------*/
+
+.banner {
+    width: 80%;
+    height: auto;
+    margin: 60px auto;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.banner-element {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.banner-info,
+.banner-img {
+    padding-top: 20px;
+    color: white;
+    width: 40%;
+    height: auto;
+}
+
+
+
+
+
+
+/*-----------------------------------------------
+        Media Queries (Responsive Design)
+-------------------------------------------------*/
+
+
+/*-------------------------- For Mobile------------------------ */
+
+
+@media only screen and (max-width: 600px) {
+
+    /* -----Top-Banner----- */
+
+    .banner {
+        width: 95%;
+        margin: 30px auto;
+    }
+
+    .banner-element {
+        flex-direction: column;
+    }
+
+    .banner-info {
+        width: 95%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .banner-img {
+        width: 95%;
+        margin: auto;
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+
+/*---------------------- For Tablet-------------------- */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .banner-img {
+        width: auto;
+    }
+}
