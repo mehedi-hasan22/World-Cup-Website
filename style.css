@@ -159,6 +159,10 @@ footer a {
     margin: 10px;
 }
 
+.footer-link a:hover {
+    color: tomato;
+}
+
 footer hr {
     width: 80%;
 }
@@ -168,6 +172,9 @@ footer hr {
     margin: 0 20px;
 }
 
+.social-icon a:hover {
+    color: tomato;
+}
 
 /*-----------------------------------------------
         Media Queries (Responsive Design)
